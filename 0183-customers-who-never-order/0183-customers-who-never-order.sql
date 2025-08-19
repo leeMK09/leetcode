@@ -1,0 +1,1 @@
+select cu.name as Customers from Customers as cu left join Orders as od on od.customerId = cu.id where od.customerId is null
